@@ -1,15 +1,20 @@
 import React from 'react';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="row">
-          <div className="col-3">
-            sidebar
+        <div className="row h-90vh">
+          <div className="col-lg-3 col-md-4">
+            <div className="app-sidebar h-100 bg-white">
+              <Sidebar/>
+            </div>
           </div>
-          <div className="col-9">
-            main
+          <div className="col-lg-9 col-md-8">
+            <div className="app-main-content h-100 bg-white">
+              main content
+            </div>
           </div>
         </div>
       </div>
