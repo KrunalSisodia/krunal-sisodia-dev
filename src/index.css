@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
 
 .container {
   padding: 3rem 0;
@@ -9,6 +9,11 @@ body {
   background-attachment: fixed;
 }
 
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+}
+
 .h-90vh {
   height: 90vh;
 }
@@ -17,6 +22,53 @@ body {
   border-radius: 20px;
   padding: 25px 10px;
   box-shadow: 0px 0px 15px black;
+}
+
+a {
+  text-decoration: none;
+}
+ul > li {
+  list-style-type: none;
+}
+
+.sidebarContent .sidebarDetails p {
+  text-align: center;
+}
+
+.sidebarContent .sidebarDetails p.profileName {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sidebarContent .sidebarDetails p img {
+  height: auto;
+  width: 70%;
+}
+
+.sidebarContacts .sidebarSocialIcons {
+  padding: 0;
+  text-align: center;
+}
+
+.sidebarContacts .sidebarSocialIcons li {
+  margin: 10px;
+}
+
+.sidebarContacts .sidebarSocialIcons img {
+  height: 25px;
+  width: 25px;
+}
+
+.sidebarContacts p a.profileResume {
+  background-image: linear-gradient(to right bottom, #11998e, #004e92);
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.sidebarContacts p a.profileResume:hover {
+  text-decoration: none;
 }
 
 /*...............Media Queries..................*/
