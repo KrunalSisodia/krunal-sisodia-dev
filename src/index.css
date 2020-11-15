@@ -35,9 +35,11 @@ ul > li {
   text-align: center;
 }
 
-.sidebarContent .sidebarDetails p.profileName {
-  font-size: 1.5rem;
+.sidebarContent .sidebarDetails h1.profileName {
+  font-size: 1.6rem;
   font-weight: bold;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
 }
 
 .sidebarContent .sidebarDetails p img {
@@ -59,6 +61,11 @@ ul > li {
   width: 25px;
 }
 
+.sidebarSocialIcons.profileSkills img {
+  height: 30px;
+  width: 30px;
+}
+
 .sidebarContacts p a.profileResume {
   background-image: linear-gradient(to right bottom, #11998e, #004e92);
   color: #fff;
@@ -69,6 +76,11 @@ ul > li {
 
 .sidebarContacts p a.profileResume:hover {
   text-decoration: none;
+}
+
+.sidebarContacts h2.sidebarProfileSkills {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /*...............Media Queries..................*/
