@@ -47,7 +47,7 @@ const Sidebar =  () =>{
                 <h2 className="sidebarProfileSkills text-center">Contacts</h2>
                 <hr />
                 <p className="text-center"><a href="tel:9099480385" className="text-dark">+91 90994 80385</a></p>
-                <p className="text-center"><a href="mailto:krunalsisodia@gmail.com" className="text-dark">krunalsisodia@gmail.com</a></p>
+                
                 <hr />
             </div>
         </div>

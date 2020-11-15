@@ -9,13 +9,17 @@ body {
   background-attachment: fixed;
 }
 
-p {
+p,
+li {
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
 }
 
-.h-90vh {
-  height: 90vh;
+.ptb-10 {
+  padding: 10vh 0;
+}
+.h-86vh {
+  height: 86vh;
 }
 .app-sidebar,
 .app-main-content {
@@ -109,10 +113,51 @@ ul > li {
   -webkit-background-clip: text;
 }
 
+.contentWrapper {
+  padding: 0.5rem 1rem;
+}
+
+.contentWrapper ul > li {
+  list-style-type: disc;
+}
+
+.contentWrapper h2 {
+  color: #354358;
+}
+
+.custom-switch {
+  padding-left: 0 !important;
+}
+
+.skill-card .skillcardIcon {
+  height: auto;
+  width: 25%;
+  float: left;
+}
+
+.skill-card .skillcardBody {
+  display: table-cell;
+  font-size: 0.8rem;
+}
+
+.skill-card {
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+  min-height: 170px;
+}
+
 /*...............Media Queries..................*/
 
-/*@include media-breakpoint-down(sm) {
-  .app-sidebar {
-    margin-bottom: 15px;
+@media (max-width: 768px) {
+  .app-main-content {
+    margin-top: 45px;
   }
-}*/
+  .skill-card {
+    min-height: auto;
+  }
+  .skill-card .skillcardIcon {
+    width: 15%;
+  }
+}
