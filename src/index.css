@@ -76,11 +76,37 @@ ul > li {
 
 .sidebarContacts p a.profileResume:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .sidebarContacts h2.sidebarProfileSkills {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.navbarWrapper .navbarItems {
+  display: flex;
+}
+
+.navbarWrapper .navbarActive {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #354358;
+  border-bottom: 4px solid #004e92;
+}
+
+.navbarWrapper .navbarItems .navbarItem {
+  font-size: 1.3rem;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #354358;
+  cursor: pointer;
+}
+
+.navbarWrapper .navbarItems .navbarItem:hover {
+  background-image: -webkit-linear-gradient(#11998e, #004e92);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 /*...............Media Queries..................*/
