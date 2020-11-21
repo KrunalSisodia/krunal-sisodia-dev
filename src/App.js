@@ -1,11 +1,11 @@
-import React from 'react';
-import Sidebar from './components/sidebar';
-import Navbar from './components/navbar';
-import { BrowserRouter as Router, Redirect, Route } from 'react-router-dom';
-import About from './components/about';
-import Resume from './components/resume';
-import Projects from './components/projects';
-import Switch from 'react-bootstrap/esm/Switch';
+import React from "react";
+import Sidebar from "./components/sidebar";
+import Navbar from "./components/navbar";
+import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
+import About from "./components/about";
+import Resume from "./components/resume";
+import Projects from "./components/projects";
+import Switch from "react-bootstrap/esm/Switch";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <div className="row h-86vh">
             <div className="col-lg-3 col-md-4">
               <div className="app-sidebar h-100 bg-white">
-                <Sidebar/>
+                <Sidebar />
               </div>
             </div>
             <div className="col-lg-9 col-md-8">
