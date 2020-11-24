@@ -16,10 +16,11 @@ module.exports = {
     tag: "tags",
   },
   social: {
-    github: "https://github.com/rolwin100",
-    facebook: "https://www.facebook.com/rolwin.monteiro",
-    twitter: "https://twitter.com/rolwin100",
-    instagram: "https://www.instagram.com/reevan100/",
+    github: "https://github.com/KrunalSisodia/",
+    linkedin: "https://www.linkedin.com/in/krunal-sisodia-48ba50124/",
+    facebook: "https://www.facebook.com/krunal.sisodia.1",
+    twitter: "https://twitter.com/youngturtle9",
+    instagram: "https://www.instagram.com/_krunalsinh_",
     rss: "/rss.xml",
   },
   contactFormUrl:
