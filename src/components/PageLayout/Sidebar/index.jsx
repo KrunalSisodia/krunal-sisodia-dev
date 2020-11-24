@@ -54,7 +54,7 @@ const DomContent = () => (
             href="mailto:krunalsisodia@gmail.com"
             target="_blank"
           >
-            <span className={style.emailHider}>@</span>
+            krunalsisodia@gmail.com
           </a>
         </li>
       </ul>

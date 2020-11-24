@@ -36,7 +36,7 @@ class Comments extends React.Component {
   render() {
     return (
       <div>
-        <div id="disqus_thread" />
+        <div id="" />
       </div>
     );
   }
