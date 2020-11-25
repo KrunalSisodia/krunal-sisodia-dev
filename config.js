@@ -14,6 +14,7 @@ module.exports = {
     contact: "contact",
     resume: "resume",
     tag: "tags",
+    feedback: "feedback",
   },
   social: {
     github: "https://github.com/KrunalSisodia/",
