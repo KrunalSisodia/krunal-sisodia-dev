@@ -1,12 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import ReactGA from 'react-ga';
-import {withRouter} from "react-router-dom";
 import AboutTile from '../../AbouTile';
 import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
-
-ReactGA.initialize('G-CPETH0WF9M');
 
 const pageText = {
   paraOne: `My name is Krunal Sisodia from Vadodara,Gujarat (india). I am a dynamic and multi-disciplined Web designer with a passion for creating innovative design solutions. I produce work that are memorable, meaningful and stand out.`,
@@ -15,9 +11,6 @@ const pageText = {
 
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
-  useEffect(()=> {
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  });
   return (
     <>
       <div>
@@ -91,4 +84,4 @@ const AboutMe = () => {
     </>
   );
 };
-export default withRouter(AboutMe);
+export default AboutMe;
