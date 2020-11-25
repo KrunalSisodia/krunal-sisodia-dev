@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable react/forbid-prop-types */
 /* eslint-disable react/require-default-props */
 /* eslint-disable react/destructuring-assignment */
@@ -5,12 +6,8 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import PropTypes from 'prop-types';
-import ReactGA from 'react-ga';
-import config from '../config';
 
-ReactGA.initialize(config.googleAnalyticTrackingId);
 export default class HTML extends React.Component {
-
   render() {
     return (
       <html lang="en-US" {...this.props.htmlAttributes}>
