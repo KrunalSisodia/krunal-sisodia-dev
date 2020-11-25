@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable operator-linebreak */
 /* eslint-disable linebreak-style */
 /* eslint-disable semi */
