@@ -5,6 +5,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import PropTypes from 'prop-types';
+import ReactGA from 'react-ga';
 
 export default class HTML extends React.Component {
   render() {
@@ -17,16 +18,8 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          /*Global site tag (gtag.js) - Google Analytics */
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-023XM90L6Q"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-023XM90L6Q');
-          </script>
           {this.props.headComponents}
+          ReactGA.initialize('G-023XM90L6Q');
         </head>
         <body {...this.props.bodyAttributes} className="light">
           {this.props.preBodyComponents}

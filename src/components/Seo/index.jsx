@@ -63,20 +63,12 @@ function SEO({
                 { property: 'og:image:alt', content: description },
                 { property: 'og:site_name', content: Config.siteTitle },
                 { property: 'og:locale', content: lang || 'en_US' },
-                /* Twitter card */
-                { name: 'twitter:card', content: 'summary_large_image' },
-                { name: 'twitter:title', content: title },
-                { name: 'twitter:description', content: description },
-                { name: 'twitter:image', content: metaImageUrl },
-                { name: 'twitter:image:alt', content: description },
-                { name: 'twitter:site', content: Config.author },
-                { name: 'twitter:creator', content: Config.author },
               ]
                 .concat(metaKeywords) // Keywords
                 .concat(meta || []) // Other provided metadata
             }
             link={[
-              { rel: 'canonical', href: pageUrl }, // Canonical url
+              { rel: 'canonical', href: "https://krunalsisodia-dev.netlify.app/" }, // Canonical url
             ]
               // Translated versions of page
               .concat(
