@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: "",
-  siteUrl: "https://rolwinreevan.com",
+  siteUrl: "https://krunalsisodia-dev.netlify.app/",
   siteTitle: "Krunal Sisodia",
   siteDescription: "Logbook of a Web designer",
   author: "Krunal Sisodia",
