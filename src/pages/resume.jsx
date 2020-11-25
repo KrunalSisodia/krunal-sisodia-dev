@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf';
 import { Button, Row, Col } from 'antd';

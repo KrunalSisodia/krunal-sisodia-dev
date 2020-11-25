@@ -1,3 +1,8 @@
+/* eslint-disable operator-linebreak */
+/* eslint-disable linebreak-style */
+/* eslint-disable semi */
+/* eslint-disable linebreak-style */
+/* eslint-disable quotes */
 module.exports = {
   pathPrefix: "",
   siteUrl: "https://krunalsisodia-dev.netlify.app/",
