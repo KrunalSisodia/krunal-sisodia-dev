@@ -51,6 +51,11 @@ export default () => {
                 Resume
               </Link>
             </li>
+            <li className={style.navItem}>
+              <Link to="/feedback" onClick={toggleMenu} activeClassName={style.anchorActive}>
+                Feedback
+              </Link>
+            </li>
           </ul>
         </div>
       </Layout>
