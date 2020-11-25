@@ -6,7 +6,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactGA from 'react-ga';
-import React, { useEffect } from 'react';
 import config from '../config';
 
 ReactGA.initialize(config.googleAnalyticTrackingId);
