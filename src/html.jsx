@@ -5,7 +5,15 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import PropTypes from 'prop-types';
+import ReactGA from 'react-ga';
+import React, { useEffect } from 'react';
+
+export const initGA = () => {       
+  ReactGA.initialize('G-CPETH0WF9M'); // put your tracking id here
+} 
 export default class HTML extends React.Component {
+
+  useEffect(() => { initGA(); }, []);
 
   render() {
     return (
