@@ -6,9 +6,6 @@ import SidebarWrapper from '../components/PageLayout/Sidebar';
 import AboutMe from '../components/PageFragments/HomePage/AboutMe';
 import Skills from '../components/PageFragments/HomePage/SkillProgress';
 import ReactGA from 'react-ga';
-import { useEffect } from 'react';
-
-
 
 export default () => (
   function App (){
