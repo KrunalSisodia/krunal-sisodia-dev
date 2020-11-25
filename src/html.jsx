@@ -8,12 +8,8 @@ import PropTypes from 'prop-types';
 import ReactGA from 'react-ga';
 import React, { useEffect } from 'react';
 
-export const initGA = () => {       
-  ReactGA.initialize('G-CPETH0WF9M'); // put your tracking id here
-} 
+ReactGA.initialize('G-CPETH0WF9M');
 export default class HTML extends React.Component {
-
-  useEffect(() => { initGA(); }, []);
 
   render() {
     return (
@@ -21,14 +17,6 @@ export default class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           /* Global site tag (gtag.js) - Google Analytics */
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPETH0WF9M"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-CPETH0WF9M');
-          </script>
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
             name="viewport"
