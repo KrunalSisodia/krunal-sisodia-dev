@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "",
   siteUrl: "https://rolwinreevan.com",
-  siteTitle: "Krunal SIsodia",
+  siteTitle: "Krunal Sisodia",
   siteDescription: "Logbook of a Web designer",
-  author: "Krunal SIsodia",
+  author: "Krunal Sisodia",
   postsForArchivePage: 3,
   defaultLanguage: "en",
   disqusScript:
@@ -21,6 +21,7 @@ module.exports = {
     facebook: "https://www.facebook.com/krunal.sisodia.1",
     twitter: "https://twitter.com/youngturtle9",
     instagram: "https://www.instagram.com/_krunalsinh_",
+    behance: "https://www.behance.net/krunalsisodia",
     rss: "/rss.xml",
   },
   contactFormUrl:

@@ -12,7 +12,7 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
-  facebook, github, instagram, twitter, linkedin,
+  facebook, github, instagram, twitter, linkedin, behance
 } = Config.social;
 
 const DomContent = () => (
@@ -32,6 +32,7 @@ const DomContent = () => (
         <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
         <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
+        <a href={behance} target="_blank" label="button" rel="noopener noreferrer"><FA name="behance" /></a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>
