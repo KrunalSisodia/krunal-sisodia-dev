@@ -5,7 +5,11 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import PropTypes from 'prop-types';
+
+
+ReactGA.initialize("G-CPETH0WF9M")
 export default class HTML extends React.Component {
+
   render() {
     return (
       <html lang="en-US" {...this.props.htmlAttributes}>

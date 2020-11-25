@@ -27,7 +27,7 @@ module.exports = {
   contactFormUrl:
     process.env.CONTACT_FORM_ENDPOINT ||
     "https://getform.io/f/e9a5866c-cb4e-4dbf-a958-5a7e3dc13543",
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || "",
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID,
   tags: {
     javascript: {
       name: "javascript",

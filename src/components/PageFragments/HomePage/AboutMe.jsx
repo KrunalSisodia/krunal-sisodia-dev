@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import ReactGA from 'react-ga';
+import {withRouter} from "react-router-dom";
 import AboutTile from '../../AbouTile';
 import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
@@ -13,6 +14,9 @@ const pageText = {
 
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
+  useEffect(()=> {
+    ReactGA.pageview(window.location.pathname + window.location.search)
+  });
   return (
     <>
       <div>
@@ -86,4 +90,4 @@ const AboutMe = () => {
     </>
   );
 };
-export default AboutMe;
+export default withRouter(AboutMe);
