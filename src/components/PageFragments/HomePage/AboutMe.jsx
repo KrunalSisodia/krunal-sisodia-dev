@@ -1,9 +1,13 @@
 import React from 'react';
 import { Row, Col } from 'antd';
+import ReactGA from 'react-ga';
 import AboutTile from '../../AbouTile';
 import { stripTags, domHtml } from '../../../utils/stripTags';
-
 import SEO from '../../Seo';
+
+export const initGA = () => {       
+  ReactGA.initialize('G-CPETH0WF9M'); // put your tracking id here
+} 
 
 const pageText = {
   paraOne: `My name is Krunal Sisodia from Vadodara,Gujarat (india). I am a dynamic and multi-disciplined Web designer with a passion for creating innovative design solutions. I produce work that are memorable, meaningful and stand out.`,

@@ -5,8 +5,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import PropTypes from 'prop-types';
-import ReactGA from 'react-ga';
-
 export default class HTML extends React.Component {
   render() {
     return (
@@ -19,7 +17,6 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           {this.props.headComponents}
-          ReactGA.initialize('G-023XM90L6Q');
         </head>
         <body {...this.props.bodyAttributes} className="light">
           {this.props.preBodyComponents}
