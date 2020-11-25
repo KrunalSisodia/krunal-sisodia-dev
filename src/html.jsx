@@ -7,8 +7,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ReactGA from 'react-ga';
 import React, { useEffect } from 'react';
+import config from '../config';
 
-ReactGA.initialize('G-CPETH0WF9M');
+ReactGA.initialize(config.googleAnalyticTrackingId);
 export default class HTML extends React.Component {
 
   render() {
