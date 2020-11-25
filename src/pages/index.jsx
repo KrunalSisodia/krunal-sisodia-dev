@@ -1,6 +1,7 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable arrow-spacing */
 /* eslint-disable linebreak-style */
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { Layout } from 'antd';
 import ReactGA from 'react-ga';
 import Header from '../components/PageLayout/Header';
@@ -13,7 +14,7 @@ useEffect(()=>{
 
   // to report page view
   ReactGA.pageview('/');
-}, [])
+}, []);
 
 export default () => (
   <Layout className="outerPadding">
