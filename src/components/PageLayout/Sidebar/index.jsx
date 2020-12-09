@@ -47,12 +47,12 @@ const DomContent = () => (
           <FA name="linkedin" />
         </a>
         <a
-          href={facebook}
+          href={instagram}
           target="_blank"
           label="button"
           rel="noopener noreferrer"
         >
-          <FA name="facebook-f" />
+          <FA name="instagram" />
         </a>
         <a
           href={twitter}
