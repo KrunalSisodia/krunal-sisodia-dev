@@ -32,7 +32,7 @@ const AboutMe = () => {
             img="location.png"
             height={60}
             alt="location image"
-            textH4="Born and bought up in"
+            textH4="Born and brought up in"
             textH3="Vadodara, GJ, India"
           />
         </Col>
