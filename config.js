@@ -1,3 +1,9 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable operator-linebreak */
+/* eslint-disable linebreak-style */
+/* eslint-disable semi */
+/* eslint-disable linebreak-style */
+/* eslint-disable quotes */
 module.exports = {
   pathPrefix: "",
   siteUrl: "https://krunalsisodia-dev.netlify.app/",
@@ -21,7 +27,7 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/krunal-sisodia-48ba50124/",
     facebook: "https://www.facebook.com/krunal.sisodia.1",
     twitter: "https://twitter.com/youngturtle9",
-    instagram: "https://www.instagram.com/_krunalsinh_",
+    instagram: "https://www.instagram.com/clever.designer",
     behance: "https://www.behance.net/krunalsisodia",
     rss: "/rss.xml",
   },
