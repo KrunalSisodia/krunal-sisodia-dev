@@ -11,21 +11,7 @@ const Experience = () => {
   return (
     <>
       <div>
-        <SEO
-          title="Experience"
-          path=""
-          keywords={[
-            "Krunal",
-            "Krunal Sisodia",
-            "FullStack developer",
-            "Javascript",
-            "ReactJS",
-            "NodeJS",
-            "Gatsby",
-            "Web Designer",
-            "UI/UX developer",
-          ]}
-        />
+        
         <h1 className="titleSeparate">Experience</h1>
         <p>
           <strong>Designation:</strong> Web Producer (March 2019 - July 2020)
