@@ -11,6 +11,7 @@ const Experience = () => {
   return (
     <>
       <div>
+
         <h1 className="titleSeparate">Experience</h1>
         <p>
           <strong>Designation:</strong> Web Producer (March 2019 - July 2020)
