@@ -61,7 +61,7 @@ const Experience = () => {
           </li>
           <li>
             <p>
-              <strong>Designation:</strong> Junior Developer and designer (March 2019 - July 2020)
+              <strong>Designation:</strong> Junior Developer and designer (Jan. 2018 - March 2019)
             </p>
             <p>
               <strong>Company:</strong> The One web technology
